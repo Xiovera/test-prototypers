@@ -1,0 +1,27 @@
+$font-size: 12px;
+$font-family: 'Clicker Script', cursive;
+
+*{
+	outline:1px solid red;
+}
+
+body{
+	font-size: $font-size;
+}
+
+h1{
+	font-family: $font-family;
+}
+
+
+@import 'parciales/_hero';
+//@import 'parciales/_video';
+@import 'parciales/_pasion';
+//@import 'parciales/_types';
+//@import 'parciales/_questions1';
+@import 'parciales/_questions2';
+@import 'parciales/_respuestas';
+@import 'parciales/_campos';
+//@import 'parciales/_carrousel';
+@import 'parciales/_amamos';
+@import 'parciales/_footer';

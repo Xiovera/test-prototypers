@@ -1,0 +1,48 @@
+* {
+  outline: 1px solid red; }
+
+body {
+  font-size: 12px; }
+
+h1 {
+  font-family: "Clicker Script", cursive; }
+
+.hero-section {
+  background: url(../img/parallax-1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+.pasion-section {
+  background: url(../img/parallax-3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+.questions2-section {
+  background: url(../img/parallax-2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+.respuestas .color1 {
+  background-color: #f0e7ae; }
+.respuestas .color2 {
+  background-color: #8ec641; }
+.respuestas .color3 {
+  background-color: #ed9a9d; }
+
+.campos-section {
+  background: url(../img/parallax-4.jpg) no-repeat center center;
+  background-size: cover;
+  height: 480px; }
+
+.amamos-section {
+  padding-top: 30px 30px 0 0; }
+
+.negrito {
+  background-color: #262626;
+  margin-top: 15px; }
+  .negrito .encanto {
+    color: white;
+    padding-top: 15px;
+    margin-left: 5px; }
+
+/*# sourceMappingURL=main.css.map */
