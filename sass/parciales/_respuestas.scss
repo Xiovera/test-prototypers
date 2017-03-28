@@ -1,11 +1,26 @@
-.respuestas{
+.respuestas-section{
+	.texto{
+	padding: 100px 75px;
+	height: 350px;
+	}
+
+	.bloques{
+	height: 350px;
+	}
+
 	.color1{
 		background-color: #f0e7ae;
+		height: 350px;
+		padding-top:100px;
 	}
 	.color2{
 		background-color: #8ec641;
+		height: 350px;
+		padding-top:100px;
 	}
 	.color3{
 		background-color: #ed9a9d;
+		height: 350px;
+		padding-top:100px;
 	}
 }
