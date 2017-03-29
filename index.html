@@ -4,47 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Tea Lovers</title>
-  <link rel="shortcut icon" type="image/x-icon" href="img/1490742845.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="img/1490798682.ico">
   <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet"  type="text/css" href="css/superslides.css">
   <link rel="stylesheet"  type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
-<section class="hero-section" id="hero">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="menu-hamburguesa">
-      <a class="navbar-brand" href="#"><img src="img/trxto-hagamos-black.png" alt="logo" width="40px" class="img-responsive"></a>
-      <button class="glyphicon glyphicon-menu-hamburger hamburger">&#9776;</button>
-      <button class="glyphicon glyphicon-menu-remove cross">&#735;</button>
+<header>
+  <div class="tapita">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-3">
+            <img src="img/trxto-hagamos-black.png" alt="logo" width="40px" class="logus img-responsive">
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-9">
+            <div class="text-right">
+              <button class="btn btn-lg" data-toggle="collapse" data-target="#main-navigation"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+            </div>
+            <nav>
+              <div id="main-navigation" class="collapse">
+                <ul class="principal-menu text-justify">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#pasion">Nuestra Pasión</a></li>
+                  <li><a href="#questions1">Preguntas</a></li>
+                  <li><a href="#campos">Los campos</a></li>
+                </ul> 
+              </div>           
+            </nav>
+          </div>
+        </div>
+      </div> 
     </div>
-    <div class="menu">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#pasion">Nuestra Pasión</a></li>
-        <li><a href="#preguntas1">Preguntas</a></li>
-        <li><a href="#campos">Los campos</a></li>          
-      </ul>
-    </div> 
-  </nav> 
-<div class="tea-lovers">
+  </div>
+  <div class="tea-lovers">
     <div class="container">
       <div class="row">
         <div class="text-center principal">
-          <img class="img-responsive center-block" width="30%" src="img/logo-animado.png" alt="lovers">
+          <img class="lovers img-responsive center-block" width="45%" src="img/logo-animado.png" alt="lovers">
         </div>
       </div>
       <div class="row scroll">
-        <img class="scroll-blanco img-responsive center-block" src="img/scroll.png" width="4%" alt="scroll">
+        <img class="scroll-blanco img-responsive center-block" src="img/scroll.png" width="5%" alt="scroll">
         <img class="img-responsive center-block" src="img/arrow-down.png" width="3%" alt="scroll-down">
       </div>
     </div>  
-</div>  
-</section>
-<!----------------------------------------------- end hero-section -------------------->
+  </div>  
+</header>   
+<!----------------------------------------------- end header-section -------------------->
 <section class="video-section" id="video">
       <div class="container-fluid">
         <div class="row">
@@ -110,14 +121,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-sm-6 hidden-xs">
-            <div id="img1" class="center-block text-center">¿todas las infusiones son té?</div> 
+            <div id="img1" class=" centradito1 center-block text-center">¿todas las infusiones son té?</div> 
           </div>
           <div class="row">
             <div class="col-md-3 col-sm-3 hidden-xs">
-              <div id="img2" class="center-block text-center">¿todas las infusiones son té?</div>  
+              <div id="img2" class=" centradito center-block text-center">¿todas las infusiones son té?</div>  
             </div>
             <div class="col-md-3 col-sm-3 hidden-xs">
-              <div id="img3" class="center-block text-center">¿todas las infusiones son té?</div> 
+              <div id="img3" class="centradito center-block text-center">¿todas las infusiones son té?</div> 
             </div>
           </div>        
         </div>
@@ -135,8 +146,7 @@
         </div>
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 text-center blanquito">
-            <h2>PREGUNTAS</h2>
-            <h2>SOBRE EL TÉ</h2>    
+            <h2>PREGUNTAS SOBRE EL TÉ</h2>    
           </div>
         </div>
       </div>  
@@ -206,7 +216,7 @@
     </div>
 </section>
 <!----------------------------------------------- end campos-section -------------------->
-<section class="carrousel-section" id="carrousel">
+<section class="carrousel-section hidden-xs" id="carrousel">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 col-sm-12 hidden-xs">
@@ -270,7 +280,7 @@
             </div>  
           </div>
           <div class="col-md-4 col-sm-4 col-xs-12 paquete">
-            <img src="img/paquete.png" heigth="200px" class="img-responsive" alt="paquete">
+            <img src="img/paquete.png" heigth="200px" class="center-block paquete img-responsive" alt="paquete">
           </div>
           <div class="col-md-1 col-sm-1 col-xs-1">
             
@@ -299,14 +309,18 @@
   </div>  
 </footer>
 <!----------------------------------------------- end footer-section -------------------->
-<!-- Scripts -->
-  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="//use.fontawesome.com/a4f2ba36c5.js"></script>
-  <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
-  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-  <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
-  <script type="text/javascript" src="js/jquery.superslides.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.9/jquery.smoove.min.js"></script>
+<!-- Scripts --> 
+  <script type="text/javascript" src="js/jquery.js"></script> 
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://use.fontawesome.com/a4f2ba36c5.js"></script>
+  <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+  <script src="js/jquery.parallax-1.1.3.js"></script>
+  <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+  <script src="js/jquery.superslides.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.9/jquery.smoove.min.js"></script>
   <script src="js/main.js"></script>
+
+    
 </body>
 </html>

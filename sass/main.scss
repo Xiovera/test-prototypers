@@ -1,7 +1,16 @@
 $font-size: 12px;
 $font-family: 'Raleway', cursive;
 
-@import 'parciales/_hero';
+*{
+	//outline:1px solid red;
+	font-family:$font-family;
+}
+
+h2{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+@import 'parciales/_header';
 //@import 'parciales/_video';
 @import 'parciales/_pasion';
 @import 'parciales/_types';
@@ -12,3 +21,27 @@ $font-family: 'Raleway', cursive;
 @import 'parciales/_carrousel';
 @import 'parciales/_amamos';
 @import 'parciales/_footer';
+
+@media (max-width:768px)
+{
+	.lovers{
+	width:200%;
+	}
+	.scroll{
+	padding-top:180px;
+	}
+	.paquete{
+	width: 50%;
+	margin-top:-50px;
+	}
+	.color1{
+	background-color:#f0e7ae;
+	}
+	.color2{
+	background-color:#8ec641;
+	}
+	.color3{
+	background-color:#ed9a9d;
+	}
+
+}

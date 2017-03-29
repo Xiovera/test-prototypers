@@ -1,0 +1,32 @@
+header{
+	background:url(../img/parallax-1.jpg)no-repeat center center;
+	background-size: cover;
+	height:480px;
+	margin-top:20px;
+	
+	.principal-menu{
+		li{
+			font-size:$font-size*2;
+			margin:10px;
+			a{
+			color: white;
+			}
+			list-style: none;
+		}
+	}
+	.logus{
+	margin-top:10px;
+	}
+	.tapita{
+		margin-top:10px;
+	}
+	.tea-lovers{
+		.principal{
+		padding-top: 80px;
+		}
+		.scroll{
+		padding-top:55px;
+		}
+	}
+
+}

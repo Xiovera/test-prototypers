@@ -1,95 +1,39 @@
-.hero-section {
+* {
+  font-family: "Raleway", cursive; }
+
+h2 {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+header {
   background: url(../img/parallax-1.jpg) no-repeat center center;
   background-size: cover;
-  height: 480px; }
-  .hero-section .principal {
-    margin-top: 100px; }
-  .hero-section .scroll {
-    margin-top: 60px; }
-    .hero-section .scroll .scroll-blanco {
+  height: 480px;
+  margin-top: 20px; }
+  header .principal-menu li {
+    font-size: 24px;
+    margin: 10px;
+    list-style: none; }
+    header .principal-menu li a {
       color: white; }
-  .hero-section .navbar-brand {
-    float: right;
-    padding-left: 5px; }
-  .hero-section nav {
-    width: 100%;
-    background: #ffffff;
-    height: 60px;
-    line-height: 60px;
-    border-bottom: 1px solid #dddddd; }
-  .hero-section .hamburger {
-    background: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    line-height: 45px;
-    padding: 5px 15px 0px 15px;
-    color: #999;
-    border: 0;
-    font-size: 1.4em;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    z-index: 10000000000000; }
-  .hero-section .cross {
-    background: none;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    padding: 7px 15px 0px 15px;
-    color: #999;
-    border: 0;
-    font-size: 3em;
-    line-height: 65px;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    z-index: 10000000000000; }
-  .hero-section .menu {
-    z-index: 1000000;
-    font-weight: bold;
-    font-size: 0.8em;
-    width: 100%;
-    background: #f1f1f1;
-    position: absolute;
-    text-align: center;
-    font-size: 12px; }
-  .hero-section .menu ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    list-style-image: none; }
-  .hero-section .menu li {
-    display: block;
-    padding: 15px 0 15px 0;
-    border-bottom: #dddddd 1px solid; }
-  .hero-section .menu li:hover {
-    display: block;
-    background: #ffffff;
-    padding: 15px 0 15px 0;
-    border-bottom: #dddddd 1px solid; }
-  .hero-section .menu ul li a {
-    text-decoration: none;
-    margin: 0px;
-    color: #666; }
-  .hero-section .menu ul li a:hover {
-    color: #666;
-    text-decoration: none; }
-  .hero-section .menu a {
-    text-decoration: none;
-    color: #666; }
-  .hero-section .menu a:hover {
-    text-decoration: none;
-    color: #666; }
+  header .logus {
+    margin-top: 10px; }
+  header .tapita {
+    margin-top: 10px; }
+  header .tea-lovers .principal {
+    padding-top: 80px; }
+  header .tea-lovers .scroll {
+    padding-top: 55px; }
 
 .pasion-section {
   background: url(../img/parallax-3.jpg) no-repeat center center;
   background-size: cover;
   height: 480px;
-  color: white; }
+  margin-top: -7px; }
   .pasion-section .blanquito {
     color: white;
-    margin-top: 80px; }
+    margin-top: 80px;
+    width: 300px; }
 
 .types-section {
   margin-top: 30px;
@@ -115,6 +59,10 @@
   background-size: cover;
   height: 200px;
   color: white; }
+.questions1-section .centradito1 {
+  padding-top: 180px; }
+.questions1-section .centradito {
+  padding-top: 80px; }
 
 .questions2-section {
   background: url(../img/parallax-2.jpg) no-repeat center center;
@@ -122,11 +70,16 @@
   height: 480px; }
   .questions2-section .blanquito {
     color: white;
-    margin-top: 200px; }
+    margin-top: 200px;
+    width: 230px; }
+  .questions2-section h2 {
+    margin-top: unset;
+    margin-bottom: unset; }
 
 .respuestas-section .texto {
-  padding: 100px 75px;
-  height: 350px; }
+  padding: 70px 75px;
+  height: 350px;
+  margin-bottom: 20px; }
 .respuestas-section .bloques {
   height: 350px; }
 .respuestas-section .color1 {
@@ -160,7 +113,7 @@
   margin-top: 100px;
   margin-right: 30px; }
 .amamos-section .paquete {
-  margin-top: 80px; }
+  margin-top: 50px; }
 
 .negrito {
   background-color: #262626;
@@ -169,5 +122,25 @@
     color: white;
     padding-top: 15px;
     margin-left: 5px; }
+
+@media (max-width: 768px) {
+  .lovers {
+    width: 200%; }
+
+  .scroll {
+    padding-top: 180px; }
+
+  .paquete {
+    width: 50%;
+    margin-top: -50px; }
+
+  .color1 {
+    background-color: #f0e7ae; }
+
+  .color2 {
+    background-color: #8ec641; }
+
+  .color3 {
+    background-color: #ed9a9d; } }
 
 /*# sourceMappingURL=main.css.map */
