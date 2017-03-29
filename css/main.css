@@ -5,9 +5,82 @@
   .hero-section .principal {
     margin-top: 100px; }
   .hero-section .scroll {
-    margin-top: 100px; }
+    margin-top: 60px; }
     .hero-section .scroll .scroll-blanco {
       color: white; }
+  .hero-section .navbar-brand {
+    float: right;
+    padding-left: 5px; }
+  .hero-section nav {
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #dddddd; }
+  .hero-section .hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+  .hero-section .cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+  .hero-section .menu {
+    z-index: 1000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    text-align: center;
+    font-size: 12px; }
+  .hero-section .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none; }
+  .hero-section .menu li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid; }
+  .hero-section .menu li:hover {
+    display: block;
+    background: #ffffff;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid; }
+  .hero-section .menu ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #666; }
+  .hero-section .menu ul li a:hover {
+    color: #666;
+    text-decoration: none; }
+  .hero-section .menu a {
+    text-decoration: none;
+    color: #666; }
+  .hero-section .menu a:hover {
+    text-decoration: none;
+    color: #666; }
 
 .pasion-section {
   background: url(../img/parallax-3.jpg) no-repeat center center;
@@ -16,7 +89,7 @@
   color: white; }
   .pasion-section .blanquito {
     color: white;
-    margin-top: 120px; }
+    margin-top: 80px; }
 
 .types-section {
   margin-top: 30px;

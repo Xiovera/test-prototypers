@@ -4,50 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Tea Lovers</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/1490742845.ico">
   <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet"  type="text/css" href="css/superslides.css">
   <link rel="stylesheet"  type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
-  <script src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <section class="hero-section" id="hero">
-  <nav class="navbar navbar-fixed-top">
-      <div class="container">   
-          <div class="navbar-header">
-            <button type="button" class="glyphicon glyphicon-menu-hamburger navbar-toggle collapsed" data-toggle="collapse" data-target="#navegador">
-            </button>
-            <a class="navbar-brand" href="#">
-              <div>
-              <img src="img/trxto-hagamos-black.png" alt="logo" width="40px" class="img-responsive">
-            </div>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navegador">   
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#pasion">Nuestra Pasión</a></li>
-                  <li><a href="#preguntas1">Preguntas</a></li>
-                  <li><a href="#campos">Los campos</a></li>        
-              </ul>
-          </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="menu-hamburguesa">
+      <a class="navbar-brand" href="#"><img src="img/trxto-hagamos-black.png" alt="logo" width="40px" class="img-responsive"></a>
+      <button class="glyphicon glyphicon-menu-hamburger hamburger">&#9776;</button>
+      <button class="glyphicon glyphicon-menu-remove cross">&#735;</button>
+    </div>
+    <div class="menu">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Inicio</a></li>
+        <li><a href="#pasion">Nuestra Pasión</a></li>
+        <li><a href="#preguntas1">Preguntas</a></li>
+        <li><a href="#campos">Los campos</a></li>          
+      </ul>
+    </div> 
+  </nav> 
+<div class="tea-lovers">
+    <div class="container">
+      <div class="row">
+        <div class="text-center principal">
+          <img class="img-responsive center-block" width="30%" src="img/logo-animado.png" alt="lovers">
+        </div>
       </div>
-    </nav>
-  <div class="tea-lovers">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="text-center principal">
-            <img class="img-responsive center-block" width="30%" src="img/logo-animado.png" alt="lovers">
-          </div>
-        </div>
-        <div class="row scroll">
-          <img class="scroll-blanco img-responsive center-block" src="img/scroll.png" width="4%" alt="scroll">
-          <img class="img-responsive center-block" src="img/arrow-down.png" width="3%" alt="scroll-down">
-        </div>
-      </div>  
+      <div class="row scroll">
+        <img class="scroll-blanco img-responsive center-block" src="img/scroll.png" width="4%" alt="scroll">
+        <img class="img-responsive center-block" src="img/arrow-down.png" width="3%" alt="scroll-down">
+      </div>
     </div>  
+</div>  
 </section>
 <!----------------------------------------------- end hero-section -------------------->
 <section class="video-section" id="video">
@@ -124,12 +119,7 @@
             <div class="col-md-3 col-sm-3 hidden-xs">
               <div id="img3" class="center-block text-center">¿todas las infusiones son té?</div> 
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6 hidden-xs">
-              <div id="img4" class="center-block text-center">¿todas las infusiones son té?</div>
-            </div>
-          </div>          
+          </div>        
         </div>
       </div>  
     </div>
@@ -163,14 +153,14 @@
               <small><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam.</p></small>
             </div>         
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-md-6 col-sm-6 hidden-xs text-center">
             <div class="color1">
               <img width="35%" src="img/icon-1.png" alt="icon1" class="img-responsive img-rounded center-block">
             </div>                     
           </div>
         </div>
         <div class="row bloques">
-          <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-md-6 col-sm-6 hidden-xs text-center">
               <div class="color2">
                 <img width="35%" src="img/icon-2.png" alt="icon2" class="img-responsive img-rounded center-block">
             </div>        
@@ -189,7 +179,7 @@
               <small><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dignissimos ipsum sequi doloremque eius quos, esse impedit. Dolor maxime corrupti commodi, hic suscipit quibusdam? Facilis modi sequi vel eum aperiam.</p></small>
             </div>        
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+          <div class="col-md-6 col-sm-6 hidden-xs text-center">
             <div class="color3">
               <img width="35%" src="img/icon-3.png" alt="icon3" class="img-responsive img-rounded center-block">
             </div>        
@@ -309,21 +299,6 @@
   </div>  
 </footer>
 <!----------------------------------------------- end footer-section -------------------->
-
-
-<section class="prueba">
-  <div class="row">
-  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-
-  <!-- Add the extra clearfix for only the required viewport -->
-  <div class="clearfix visible-xs-block"></div>
-
-  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-</div>
-</section>
-
 <!-- Scripts -->
   <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="//use.fontawesome.com/a4f2ba36c5.js"></script>
